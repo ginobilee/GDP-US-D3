@@ -1,0 +1,37 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+	margin:0 auto;
+	margin-top:50px;
+	text-align:center;
+	background-color:#007093;
+}
+.chart{
+	background-color:#fff;
+}
+.chart rect{
+	fill:steelblue;
+}
+.bar:hover {
+  fill: white;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.hint{
+	fill:#B8CAE1;
+}
+.hint text{
+	fill:white;
+}
+.title{
+	font-size:30px;
+	font-family:'Oswald';
+	fill:steelblue
+}
+.footer{
+	font-size:12px;
+	fill:steelblue
+}
